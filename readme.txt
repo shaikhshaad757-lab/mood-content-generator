@@ -1,11 +1,21 @@
-# Mood-Based Content Generator
+# 🎭 Mood-Based Content Generator
 
-## Requirements
-- Python 3.11
-- FFmpeg installed and added to PATH (required by pydub)
-  - Windows: download a build and add `<extracted>\bin` to PATH.
-- Create a virtual environment and activate it.
+An AI-powered web app that generates content based on user mood using text, voice, and facial expressions.
 
-## Install deps
-```bash
+## 🚀 Features
+- Mood detection (text, voice, face)
+- AI-generated content (Gemini API)
+- Image suggestions
+- Video recommendations
+
+## 🛠️ Tech Stack
+- Python
+- Streamlit
+- OpenCV
+- FER
+- SpeechRecognition
+
+## ▶️ Run Locally
 pip install -r requirements.txt
+streamlit run streamlit_app.py
+
